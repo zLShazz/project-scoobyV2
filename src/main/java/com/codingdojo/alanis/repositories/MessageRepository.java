@@ -13,7 +13,7 @@ public interface MessageRepository extends CrudRepository<Message, Long> {
 	
 	
 	
-	@Query(value="SELECT * FROM messages WHERE remitter_id = ?1 AND receptor_id = ?2 OR remitter_id = ?2 AND receptor_id = ?1", nativeQuery = true)
+	@Query(value="SELECT * FROM messages WHERE (remitter_id = ?1 AND receptor_id = ?2) OR (remitter_id = ?2 AND receptor_id = ?1) ORDER BY created_at ASC", nativeQuery = true)
 	List<Message> chat(Long remitter, Long receptor);
 	
 

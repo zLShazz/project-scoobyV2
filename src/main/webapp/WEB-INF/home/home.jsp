@@ -111,7 +111,7 @@
                   <p class="card-text">Género: ${pet.genre}</p>
                   <p class="card-text">Edad: ${pet.age}</p>
                   <p class="card-text">Ciudad: ${pet.city}</p>
-                  <a href="/mostrar/${pet.id}" class="btn btn-primary">Más info</a>
+                  <a href="/mostrar/${pet.id}" class="b-mostrar-below">Más info</a>
                 </div>
               </div>
               <c:forEach begin="${status.index + 1}" end="${status.index + 3}" items="${pets}" var="nextPet" varStatus="nextStatus">
@@ -124,7 +124,7 @@
                     <p class="card-text">Género: ${nextPet.genre}</p>
                     <p class="card-text">Edad: ${nextPet.age}</p>
                     <p class="card-text">Ciudad: ${nextPet.city}</p>
-                    <a href="/mostrar/${nextPet.id}" class="btn btn-primary">Más info</a>
+                    <a href="/mostrar/${nextPet.id}" class="b-mostrar-below">Más info</a>
                   </div>
                 </div>
               </c:forEach>

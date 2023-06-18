@@ -72,7 +72,7 @@
 }
 
 .card {
-  background-color: #ffffffc0;
+  background-color: #ffffffe9;
   padding: 20px;
 
 }
@@ -253,7 +253,7 @@
   /* quienes-somos */
   .h4,
   h4 {
-    color: #b596c0;
+    color: #ffffff;
     font-size: 30px;
     margin-left: 50px;
     font-weight: 700;
@@ -297,7 +297,7 @@ h6 {
   padding-top: 70px;
   height: 200px;
   text-align: center;
-  color: #6541b1;
+  color: #f1eff4;
   font-size: 30px;
   margin-left: 50px;
   font-weight: 700;
@@ -778,4 +778,8 @@ form#message {
 
 .footer-msg{
   margin-top: 300px;
+}
+
+.nav-link{
+  color: white;
 }

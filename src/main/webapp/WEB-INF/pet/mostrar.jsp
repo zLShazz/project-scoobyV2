@@ -42,8 +42,6 @@
 			<form action="/borrar/${mostrarPet.id}" method="post">
 	           	<input type="hidden" name="_method" value="DELETE">
 	           	<input type="submit" value="Borrar" class="b-mostrar-below">
-	           	<input type="hidden" name="_method" value="DELETE">
-	           	<input type="submit" value="Adoptado" class="b-mostrar-below"> 
 	    	</form>
 		</c:if>
 	</div>	
